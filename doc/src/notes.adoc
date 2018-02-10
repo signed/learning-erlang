@@ -4,11 +4,35 @@ https://github.com/signed/learning-erlang.git
 
 next http://learnyousomeerlang.com/modules
 
-= rebar3
+https://medium.com/erlang-central/building-your-first-erlang-app-using-rebar3-25f40b109aad
+
+== Maven central for erlang
+https://hex.pm/
+
+
+= Build tools
+== rebar3
 https://www.rebar3.org/docs/basic-usage
+https://ferd.ca/rebar3-shell.html
+https://www.rebar3.org/docs/using-available-plugins#auto-compile-and-load
+
+== erlang.mk
+https://erlang.mk/
 
 = how to structure your project
 http://erlang.org/doc/design_principles/applications.html#id81839
 
 = Coding Conventions
 - variables start with an upper case character
+
+= Debugging tests
+https://stackoverflow.com/questions/34658714/how-to-debug-erlang-code-during-rebar3-eunit#34667937
+
+= Unit testing
+http://erlang.org/doc/apps/eunit/
+https://erlangcentral.org/videos/mocking-erlang-modules-with-meck/
+https://github.com/eproxus/meck
+
+= editor
+
+http://ignatov.github.io/intellij-erlang/
