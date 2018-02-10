@@ -1,2 +1,9 @@
 = Links
+
 https://github.com/signed/learning-erlang.git
+
+next http://learnyousomeerlang.com/modules
+
+
+= Coding Conventions
+- variables start with an upper case character
