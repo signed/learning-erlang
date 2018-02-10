@@ -4,6 +4,8 @@ https://github.com/signed/learning-erlang.git
 
 next http://learnyousomeerlang.com/modules
 
+= rebar3
+https://www.rebar3.org/docs/basic-usage
 
 = how to structure your project
 http://erlang.org/doc/design_principles/applications.html#id81839
