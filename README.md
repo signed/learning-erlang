@@ -5,7 +5,7 @@
 [programming rules]()http://www.erlang.se/doc/programming_rules.shtml)
 
 
-Next: http://learnyousomeerlang.com/syntax-in-functions
+Next: http://learnyousomeerlang.com/types-or-lack-thereof
 ## Build
 
 

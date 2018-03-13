@@ -1,0 +1,6 @@
+== Syntax in functions
+=== Pattern Matching
+
+=== Guards
+=== If guard -> , true ->  .
+=== In Case ... of

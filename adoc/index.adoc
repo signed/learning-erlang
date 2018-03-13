@@ -5,3 +5,6 @@ include::notes.adoc[]
 
 include::modules.adoc[]
 
+include::syntax_in_functions.adoc[]
+
+include::types.adoc[]
