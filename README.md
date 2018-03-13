@@ -1,9 +1,9 @@
-learning_erlang
-=====
+# learning_erlang
 
-An OTP application
+## References
+[learn you some Erlang](http://learnyousomeerlang.com/content)
 
-Build
------
+## Build
+
 
     $ rebar3 compile
