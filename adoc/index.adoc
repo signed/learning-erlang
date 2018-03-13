@@ -1,0 +1,7 @@
+
+Notes taken while reading through http://learnyousomeerlang.com[learn you some erlang^].
+
+include::notes.adoc[]
+
+include::modules.adoc[]
+

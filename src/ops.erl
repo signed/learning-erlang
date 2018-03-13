@@ -1,4 +1,17 @@
 -module(ops).
--export([add/2]).
+-define(noMoreMagicNumbers, 42.0).
+-define(sub(X,Y), X-Y).
 
-add(A,B) -> A + B.
+-export([
+  add/2,
+  greet/0,
+  macros/0
+]).
+
+add(A,B) -> A + B .
+
+macros() ->
+  ?sub(add(2, 2) + ?noMoreMagicNumbers, ?noMoreMagicNumbers ).
+
+greet() ->
+  io:format("Hello, world!~n").

@@ -1,9 +1,12 @@
-Notes taken while reading through http://learnyousomeerlang.com[learn you some erlang^].
+== List Comprehension
 
 [source,erlang]
 .List Comprehensions
 ----
-[X || X <- [1,2,3,4,5,6,7,8,9,10], X rem 2 =:= 0].
+NewList = [Expression || Pattern <- List, Condition1, Condition2, ... ConditionN].
 ----
-
-
+[source,erlang]
+.List Comprehensions sample
+----
+[X+Y || X <- [1,2,3,4,5,6], X rem 2 =:= 0, Y <- [2,3], Y rem 2 =:= 1].
+----
