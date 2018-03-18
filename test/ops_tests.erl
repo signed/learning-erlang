@@ -60,3 +60,19 @@ debug_macros_test_() ->
 test_sets_test_() ->
   {"catch", fun() -> 2 = 2 end},
   {"me", fun() -> 2 = 2 end}.
+
+
+inc_setup() -> return_value_from_setup.
+
+inc_cleanup(setup_return_value) -> ok.
+
+inc_fixture_test_() ->
+  {foreach,
+    fun inc_setup/0,
+    fun inc_cleanup/1,
+    [
+      {"inc by 0", ?_test(
+        ?assertEqual(1, 1))
+      }
+    ]
+  }.
