@@ -64,7 +64,7 @@ test_sets_test_() ->
 
 inc_setup() -> return_value_from_setup.
 
-inc_cleanup(setup_return_value) -> ok.
+inc_cleanup(return_value_from_setup) -> ok.
 
 inc_fixture_test_() ->
   {foreach,
