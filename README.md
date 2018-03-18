@@ -6,6 +6,7 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 
 ## References
 [programming rules](http://www.erlang.se/doc/programming_rules.shtml)
+[inaka erlang guidelines](https://github.com/inaka/erlang_guidelines)
 
 [blog time clocks](https://pavpanchekha.com/blog/time-clocks.html)
 
