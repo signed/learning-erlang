@@ -17,6 +17,10 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 
 [awsome-elixir](https://github.com/h4cc/awesome-elixir)
 
+[erlang in anger](https://github.com/heroku/erlang-in-anger)
+
+[anger](https://github.com/agner/agner) a package manager for erlang.
+
 ## Build Tools
 [erlang.mk](https://github.com/ninenines/erlang.mk)
 
@@ -41,8 +45,9 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 
 ## Mocking
 
-[meck](https://github.com/eproxus/meck)
-[mockgyver](https://github.com/klajo/mockgyver)
+### [meck](https://github.com/eproxus/meck)
+
+### [mockgyver](https://github.com/klajo/mockgyver)
 
 ## Logging
 [lager](https://github.com/erlang-lager/lager)
