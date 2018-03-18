@@ -20,9 +20,17 @@ test_them_types() ->
   ?_assert(is_number(ops:add(1, 2))).
 
 test_them_values() ->
-  [?_assertEqual(4, ops:add(2, 2)),
+  [
+    ?_assertEqual(4, ops:add(2, 2)),
     ?_assertEqual(3, ops:add(1, 2)),
-    ?_assertEqual(2, ops:add(1, 1))].
+    ?_assertEqual(2, ops:add(1, 1))
+  ].
+
+inc_test_() ->
+  [
+    {"one to go", fun() -> ?assertEqual(1, 1) end},
+    {"two to go", ?_test(?assertEqual(2, 2))}
+  ].
 
 basic_ops_test_() ->
   fun() -> ?assert(1 + 3 =:= 4) end.
