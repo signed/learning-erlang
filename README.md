@@ -1,12 +1,44 @@
 # learning_erlang
 
-## References
-[learn you some Erlang](http://learnyousomeerlang.com/content)
-[programming rules]()http://www.erlang.se/doc/programming_rules.shtml)
-
-
 Next: http://learnyousomeerlang.com/types-or-lack-thereof
-## Build
-
 
     $ rebar3 compile
+
+## References
+[programming rules](http://www.erlang.se/doc/programming_rules.shtml)
+
+[awsome lists](https://awesomerepos.com/erlang)
+
+[awsome erlang](https://github.com/drobakowski/awesome-erlang)
+
+[awsome erlang](https://github.com/uhub/awesome-erlang) Single list, no categories
+
+[awsome-elixir](https://github.com/h4cc/awesome-elixir)
+
+## Build Tolls
+[erlang.mk](https://github.com/ninenines/erlang.mk)
+
+## Coverage
+
+[cover](http://erlang.org/doc/man/cover.html)
+
+## Testing
+
+[testing-erlang-book](https://github.com/zkessin/testing-erlang-book)
+[eunit](http://erlang.org/doc/man/eunit.html)
+
+[escalus](https://github.com/esl/escalus) testing xmpp servers
+
+[common test](http://erlang.org/doc/apps/common_test/index.html)
+
+[blog Unit Testing with Erlang's Common Test Framework](https://streamhacker.com/2008/11/26/unit-testing-with-erlangs-common-test-framework/)
+
+[blog EUnit – Common special errors](https://erlcode.wordpress.com/2010/10/10/eunit-common-special-errors/)
+
+## Mocking
+
+[meck](https://github.com/eproxus/meck)
+[mockgyver](https://github.com/klajo/mockgyver)
+
+## Logging
+[lager](https://github.com/erlang-lager/lager)
