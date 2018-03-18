@@ -34,6 +34,7 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 
 [testing-erlang-book](https://github.com/zkessin/testing-erlang-book)
 [eunit](http://erlang.org/doc/man/eunit.html)
+[proper](https://github.com/manopapad/proper) for property based testing.
 
 [escalus](https://github.com/esl/escalus) testing xmpp servers
 
@@ -48,6 +49,7 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 ### [meck](https://github.com/eproxus/meck)
 
 ### [mockgyver](https://github.com/klajo/mockgyver)
+### [erlymock](https://github.com/sheyll/erlymock)
 
 ## Logging
 [lager](https://github.com/erlang-lager/lager)
