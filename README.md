@@ -7,6 +7,8 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 ## References
 [programming rules](http://www.erlang.se/doc/programming_rules.shtml)
 
+[blog time clocks](https://pavpanchekha.com/blog/time-clocks.html)
+
 [awsome lists](https://awesomerepos.com/erlang)
 
 [awsome erlang](https://github.com/drobakowski/awesome-erlang)
