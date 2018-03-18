@@ -1,4 +1,4 @@
--module(meck_demo).
+-module(meck_corner_cases).
 -include_lib("eunit/include/eunit.hrl").
 
 % https://stackoverflow.com/questions/43279705/whats-the-point-of-meckvalidate
