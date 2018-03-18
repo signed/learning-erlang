@@ -15,8 +15,10 @@ Next: http://learnyousomeerlang.com/types-or-lack-thereof
 
 [awsome-elixir](https://github.com/h4cc/awesome-elixir)
 
-## Build Tolls
+## Build Tools
 [erlang.mk](https://github.com/ninenines/erlang.mk)
+
+[dialyzer](http://erlang.org/doc/man/dialyzer.html)
 
 ## Coverage
 
