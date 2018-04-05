@@ -4,6 +4,9 @@
 add_test() ->
   4 = ops:add(2, 2).
 
+factorial_test() ->
+  ?assertEqual(6, ops:factorial(3)).
+
 new_add_test() ->
   ?assertEqual(4, ops:add(2, 2)),
   ?assertEqual(3, ops:add(1, 2)),

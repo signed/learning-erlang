@@ -1,6 +1,6 @@
 -module(ops).
 -define(noMoreMagicNumbers, 42.0).
--define(sub(X,Y), X-Y).
+-define(sub(X, Y), X - Y).
 
 -export([
   add/2,
@@ -8,10 +8,15 @@
   macros/0
 ]).
 
-add(A,B) -> A + B .
+-export([factorial/1]).
+
+factorial(N) when N == 0 -> 1;
+factorial(N) when N > 0 -> N * factorial(N - 1).
+
+add(A, B) -> A + B.
 
 macros() ->
-  ?sub(add(2, 2) + ?noMoreMagicNumbers, ?noMoreMagicNumbers ).
+  ?sub(add(2, 2) + ?noMoreMagicNumbers, ?noMoreMagicNumbers).
 
 greet() ->
   io:format("Hello, world!~n").
