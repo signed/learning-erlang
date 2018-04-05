@@ -1,6 +1,6 @@
 # learning_erlang
 
-Next: http://learnyousomeerlang.com/types-or-lack-thereof
+Next: http://learnyousomeerlang.com/recursion
 
     $ rebar3 compile
 
