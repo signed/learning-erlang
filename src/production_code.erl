@@ -1,5 +1,4 @@
 -module(production_code).
--export([]).
 
 -export([
   no_argument/0,
