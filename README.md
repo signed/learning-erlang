@@ -54,3 +54,9 @@ Next: http://learnyousomeerlang.com/recursion
 
 ## Logging
 [lager](https://github.com/erlang-lager/lager)
+
+
+## Debugging
+https://stackoverflow.com/questions/34658714/how-to-debug-erlang-code-during-rebar3-eunit
+https://stackoverflow.com/questions/44534080/how-to-debug-a-erlang-project-with-intellij-idea/46785952#46785952
+https://stackoverflow.com/a/6438397
